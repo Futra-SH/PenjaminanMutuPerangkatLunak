@@ -66,6 +66,7 @@ Kompleksitas besar serta ketidaktampakan perangkat lunak, antara lain karakteris
 > **1.2	Lingkungan di mana metode SQA dikembangkan**
 
 The software developed by many individuals and in different situations fulfills a variety of needs:
+
 ■ Pupils and students develop software as part of their education.
 
 ■ Software amateurs develop software as a hobby.
@@ -75,6 +76,7 @@ The software developed by many individuals and in different situations fulfills 
 ■ Software development professionals (systems analysts and programmers) develop software products or firmware as a professional career objective while in the employment of software houses or by software development and maintenance units (teams, departments, etc.) of large and small industrial, financial and other organizations.
 
 > Perangkat lunak yang dikembangkan oleh banyak individu dan dalam situasi yang berbeda memenuhi berbagai kebutuhan:
+> 
 > ■	Murid dan siswa mengembangkan perangkat lunak sebagai bagian dari pendidikan mereka.
 > 
 > ■ Amatir perangkat lunak mengembangkan perangkat lunak sebagai hobi.
@@ -93,6 +95,7 @@ Let us begin with the examination of the environment of professional software de
 >Mari kita mulai dengan pemeriksaan lingkungan pengembangan dan pemeliharaan perangkat lunak profesional (selanjutnya disebut "lingkungan SQA"), karena adalah pertimbangan utama dalam pengembangan metodologi SQA dan penerapan. Ciri-ciri utama dari lingkungan ini adalah sebagai berikut:
 
 **(1) Contractual conditions.** As a result of the commitments and conditions  defined in the contract between the software developer and the customer,  the activities of software development and maintenance need to cope with:
+
 ■ A defined list of functional requirements that the developed software and its maintenance need to fulfill.
 
 ■ The project budget.
@@ -101,6 +104,7 @@ Let us begin with the examination of the environment of professional software de
 
 The managers of software development and maintenance projects need to invest a considerable amount of effort in the oversight of activities in order to meet the contract’s requirements.
 >**(1)	Kondisi kontrak.** Sebagai hasil dari komitmen dan kondisi didefinisikan dalam kontrak antara pengembang perangkat lunak dan pelanggan, kegiatan pengembangan dan pemeliharaan perangkat lunak perlu mengatasi:
+
 ■	Daftar persyaratan fungsional yang ditentukan oleh perangkat lunak yang dikembangkan dan pemeliharaannya harus dipenuhi.
 
 ■	Anggaran proyek.
@@ -113,6 +117,7 @@ Manajer proyek pengembangan dan pemeliharaan perangkat lunak membutuhkan untuk m
 > **(2)	Tunduk pada hubungan pelanggan-pemasok.** Sepanjang proses pengembangan dan pemeliharaan perangkat lunak, aktivitas berada di bawah pengawasan pelanggan. Tim proyek harus bekerja sama terus menerus dengan pelanggan: untuk mempertimbangkan permintaannya untuk perubahan, untuk mendiskusikan kritiknya tentang berbagai aspek proyek, dan untuk mendapatkan persetujuannya untuk perubahan yang diprakarsai oleh tim pengembangan. Hubungan seperti itu tidak biasanya ada ketika perangkat lunak dikembangkan oleh profesional non-perangkat lunak.
 
 **(3) Required teamwork.** Three factors usually motivate the establishment of  a project team rather than assigning the project to one professional:
+
 ■ Timetable requirements. In other words, the workload undertaken  during the project period requires the participation of more than one  person if the project is to be completed on time.
 
 ■ The need for a variety of specializations in order to carry out the project.
@@ -120,6 +125,7 @@ Manajer proyek pengembangan dan pemeliharaan perangkat lunak membutuhkan untuk m
 ■ The wish to benefit from professional mutual support and review for  the enhancement of project quality.
 
 >**(3)	Diperlukan kerja tim.** Tiga faktor biasanya memotivasi pembentukan tim proyek daripada menugaskan proyek ke satu profesional:
+
 ■Persyaratan jadwal. Dengan kata lain, beban kerja yang dilakukan selama periode proyek membutuhkan partisipasi lebih dari satu orang jika proyek harus diselesaikan tepat waktu.
 
 ■Kebutuhan akan berbagai spesialisasi untuk melaksanakan proyek.
@@ -127,6 +133,7 @@ Manajer proyek pengembangan dan pemeliharaan perangkat lunak membutuhkan untuk m
 ■Keinginan untuk mendapatkan manfaat dari saling mendukung dan meninjau secara profesional untuk peningkatan kualitas proyek
 
 **(4) Cooperation and coordination with other software teams.** The carryingout of projects, especially large-scale projects, by more than one team is  a very common event in the software industry. In these cases, cooperation may be required with:
+
 ■ Other software development teams in the same organization.
 
 ■ Hardware development teams in the same organization.
@@ -136,6 +143,7 @@ Manajer proyek pengembangan dan pemeliharaan perangkat lunak membutuhkan untuk m
 ■ Customer software and hardware development teams that take part  in the project’s development.
 
 > **(4)	Kerjasama dan koordinasi dengan tim perangkat lunak lain.** Pelaksanaan proyek, terutama proyek skala besar, oleh lebih dari satu tim adalah peristiwa yang sangat umum di industri perangkat lunak. Dalam kasus ini, kerjasama mungkin diperlukan dengan:
+> 
 ■ Tim pengembangan perangkat lunak lain dalam organisasi yang sama.
 
 ■ Tim pengembangan perangkat keras dalam organisasi yang sama.
@@ -145,6 +153,7 @@ Manajer proyek pengembangan dan pemeliharaan perangkat lunak membutuhkan untuk m
 ■ Tim pengembangan perangkat lunak dan perangkat keras pelanggan yang ambil bagian dalam pengembangan proyek.
 
 **(5) Interfaces with other software systems.** Nowadays, most software systems include interfaces with other software packages. These interfaces  allow data in electronic form to flow between the software systems, free  from keying in of data processed by the other software systems. One can  identify the following main types of interfaces:
+
 ■ Input interfaces, where other software systems transmit data to your  software system.
 
 ■ Output interfaces, where your software system transmits processed  data to other software systems.
@@ -152,6 +161,7 @@ Manajer proyek pengembangan dan pemeliharaan perangkat lunak membutuhkan untuk m
 ■ Input and output interfaces to the machine’s control board, as in medical and laboratory control systems, metal processing equipment, etc.
 
 > **(5)	Antarmuka dengan sistem perangkat lunak lain.** Saat ini, sebagian besar sistem perangkat lunak menyertakan antarmuka dengan paket perangkat lunak lain. Antarmuka ini memungkinkan data dalam bentuk elektronik mengalir di antara sistem perangkat lunak, gratis dari memasukkan data yang diproses oleh sistem perangkat lunak lain. Satu bias mengidentifikasi jenis antarmuka utama berikut:
+
 ■ Antarmuka input, di mana sistem perangkat lunak lain mengirimkan data ke sistem perangkat lunak.
 
 ■ Antarmuka keluaran, tempat sistem perangkat lunak Anda mentransmisikan proses data ke sistem perangkat lunak lain. 
@@ -177,6 +187,7 @@ A significant amount of software as well as firmware development is not  carried
 The fundamental differences between software products (including firmware) and  other products are caused by the higher product complexity, by the invisibility of  software and by the nature of the product development and production process.  These differences create the need for an SQA methodology and tools for SQA that  will meet the special and different challenges for the development and operation of  quality assurance for software.
 **(2) The environments for which SQA methods were developed.**
 The SQA methods and tools discussed in this book are specially aimed at the needs  of professional software development and maintenance, activities where quality  problems appear in their most severe form, and where the most painful losses are  expected. Therefore any method or tool to be applied is subject to the environmental characteristics of their activities, namely:
+
 ■ Contract conditions and commitments defining the contents and timetable.
 
 ■ The conditions of the customer–supplier relationship, as realized by the need  for consultation with the customer and the acquisition of his approval.
@@ -195,6 +206,7 @@ The SQA methods and tools discussed in this book are specially aimed at the need
 Perbedaan mendasar antara produk perangkat lunak (termasuk firmware) dan produk lain disebabkan oleh kompleksitas produk yang lebih tinggi, oleh tembus pandang perangkat lunak dan oleh sifat pengembangan produk dan proses produksi. Perbedaan ini menciptakan kebutuhan akan metodologi dan alat SQA untuk SQA yang akan memenuhi tantangan khusus dan berbeda untuk pengembangan dan pengoperasian jaminan kualitas untuk perangkat lunak.
 **(2)	Lingkungan di mana metode SQA dikembangkan.**
 Metode dan alat SQA yang dibahas dalam buku ini secara khusus ditujukan untuk kebutuhan pengembangan dan pemeliharaan perangkat lunak profesional, aktivitas di mana kualitas masalah muncul dalam bentuk yang paling parah, dan di mana kerugian yang paling menyakitkan adalah mengharapkan. Oleh karena itu setiap metode atau alat yang akan diterapkan tunduk pada karakteristik lingkungan kegiatannya, yaitu:
+
 ■ Kondisi kontrak dan komitmen yang menentukan isi dan jadwal.
 
 ■ Kondisi hubungan pelanggan-pemasok, sebagaimana diwujudkan oleh kebutuhan untuk konsultasi dengan pelanggan dan perolehan persetujuannya.
